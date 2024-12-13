@@ -3,10 +3,10 @@ import { assets } from "../assets/assets";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col justify-center items-center gap-y-14 my-5  mx-auto pt-12">
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 max-w-[1120px] text-center">
+    <div className="flex flex-col justify-center items-center gap-y-14 my-5  pt-12">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-10  text-center">
         <div>
-         <img src={assets.logo} alt="" className="p-3 w-[200px]"/>
+          <img src={assets.logo} alt="" className="p-3 w-[200px]" />
           <p className="text-gray-400">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text

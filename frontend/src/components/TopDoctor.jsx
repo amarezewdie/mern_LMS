@@ -13,8 +13,8 @@ const TopDoctor = () => {
       </p>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 p-3">
         {doctors.slice(0, 10).map((item, index) => (
-          <div
-            onClick={() => navigate(`/appointment/${item._id}`)}
+          <div key={index}
+            onClick={() => {navigate(`/appointment/${item._id}`);scrollTo(0,0)}}
             className="border  border-blue-200 rounded-lg hover:translate-y-[-10px] transition-all duration-500"
           >
             <img src={item.image} alt="" className="bg-blue-50 rounded-t-lg" />

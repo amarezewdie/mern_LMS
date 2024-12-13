@@ -18,11 +18,11 @@ const SpecialtyMenu = () => {
           <Link
             key={index}
             onClick={() => scrollTo(0, 0)}
-            to={`/doctors/${item.speciality}`}
+            to={`/doctors/${item.specialty}`}
             className=" flex flex-col flex-shrink-0 hover:translate-y-[-8px] gap-3 transition-all duration-500 p-3"
           >
             <img src={item.image} alt="" className="w-24" />
-            <p>{item.speciality}</p>
+            <p>{item.specialty}</p>
           </Link>
         ))}
       </div>
