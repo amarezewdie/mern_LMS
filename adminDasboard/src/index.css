@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custom-height {
+  height: calc(100vh - 70px);
+}
+a.active{
+    background-color: rgb(227, 220, 220);
+    border-right: 5px solid blue;
+
+}
+.element::-webkit-scrollbar {
+  width: 0px;
+}
+
+.element::-webkit-scrollbar-thumb {
+  background-color: #444; /* Darker thumb */
+}
+
+.element {
+  scrollbar-width: 0px; /* For Firefox */
+}
